@@ -1,6 +1,5 @@
-from scipy.stats import chi2
 from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.feature_selection import SelectPercentile
+from sklearn.feature_selection import SelectPercentile, chi2
 from sklearn import linear_model as lm
 from sklearn.pipeline import Pipeline
 

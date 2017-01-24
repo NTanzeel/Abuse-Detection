@@ -9,7 +9,7 @@ def __load_data(path, drop):
 
 
 def __process_comments(comments):
-    return comments.str.strip().str.strip('"').str.replace('_', ' ').str.decode('unicode-escape')
+    return comments.str.strip().str.strip('"').str.replace('_', ' ').str.decode('string_escape').str.decode('unicode-escape')
 
 
 def get_train_data():
